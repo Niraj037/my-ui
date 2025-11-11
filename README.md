@@ -2,7 +2,7 @@
 
 A dark, minimalist design system built on the Quintet palette. Mysterious, elegant, and intentional.
 
-![hero] image.png
+![alt text](image-1.png)
 
 ## Documentation
 
