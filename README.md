@@ -7,11 +7,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)](https://www.typescriptlang.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-## 🔗 Links
-
-- **GitHub Repository**: [github.com/Niraj037/my-ui](https://github.com/Niraj037/my-ui)
-- **Issues & Feedback**: [github.com/Niraj037/my-ui/issues](https://github.com/Niraj037/my-ui/issues)
-
+![alt text](image.png)
 ## 🎨 The Quintet Palette
 
 MyUI is built on five carefully chosen colors that create a mysterious, elegant aesthetic:

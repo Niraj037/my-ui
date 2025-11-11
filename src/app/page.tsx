@@ -54,35 +54,35 @@ export default function Home() {
               <div className="h-24 w-full bg-obsidian border border-fineshyt/20 rounded-md transition-all duration-300 group-hover:border-fineshyt/40 group-hover:scale-105"></div>
               <p className="text-sm font-medium">obsidian</p>
               <code className="text-xs text-fineshyt/60 font-mono">#1a1a1a</code>
-              <p className="text-xs text-fineshyt/50">backgrounds</p>
+              
             </div>
             
             <div className="space-y-3 group">
               <div className="h-24 w-full bg-ember rounded-md transition-all duration-300 group-hover:shadow-lg group-hover:shadow-ember/20 group-hover:scale-105"></div>
               <p className="text-sm font-medium">ember</p>
               <code className="text-xs text-fineshyt/60 font-mono">#b45f3a</code>
-              <p className="text-xs text-fineshyt/50">accents, active</p>
+              
             </div>
             
             <div className="space-y-3 group">
               <div className="h-24 w-full bg-wine-dusk rounded-md transition-all duration-300 group-hover:shadow-lg group-hover:shadow-winedusk/20 group-hover:scale-105"></div>
               <p className="text-sm font-medium">wine dusk</p>
               <code className="text-xs text-fineshyt/60 font-mono">#3c2a3d</code>
-              <p className="text-xs text-fineshyt/50">containers, depth</p>
+           
             </div>
             
             <div className="space-y-3 group">
               <div className="h-24 w-full bg-glass rounded-md transition-all duration-300 group-hover:shadow-lg group-hover:shadow-glass/20 group-hover:scale-105"></div>
               <p className="text-sm font-medium">glass</p>
               <code className="text-xs text-fineshyt/60 font-mono">#4a9c9b</code>
-              <p className="text-xs text-fineshyt/50">legacy</p>
+            
             </div>
             
             <div className="space-y-3 group">
               <div className="h-24 w-full bg-fineshyt rounded-md transition-all duration-300 group-hover:shadow-lg group-hover:shadow-fineshyt/20 group-hover:scale-105"></div>
               <p className="text-sm font-medium">fineshyt</p>
               <code className="text-xs text-fineshyt/60 font-mono">#f4dce0</code>
-              <p className="text-xs text-fineshyt/50">text, premium</p>
+        
             </div>
           </div>
         </div>

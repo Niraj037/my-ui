@@ -1,0 +1,15 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry-item.json",
+  "name": "input",
+  "type": "registry:ui",
+  "description": "Text input with icon support and error states",
+  "dependencies": [],
+  "registryDependencies": [],
+  "files": [
+    {
+      "path": "registry/new-york/input/input.tsx",
+      "content": "import * as React from \"react\"\nimport { cn } from \"@/lib/utils\"\n\nexport interface InputProps extends React.InputHTMLAttributes<HTMLInputElement> {\n  leftIcon?: React.ReactNode\n  rightIcon?: React.ReactNode\n  error?: boolean\n  errorMessage?: string\n}\n\nconst Input = React.forwardRef<HTMLInputElement, InputProps>(\n  ({ className, type, leftIcon, rightIcon, error, errorMessage, ...props }, ref) => {\n    return (\n      <div className=\"relative w-full\">\n        {leftIcon && (\n          <div className=\"absolute left-3 top-1/2 -translate-y-1/2 text-fineshyt/50\">\n            {leftIcon}\n          </div>\n        )}\n        <input\n          type={type}\n          ref={ref}\n          data-slot=\"input\"\n          aria-invalid={error ? \"true\" : \"false\"}\n          className={cn(\n            \"file:text-fineshyt placeholder:text-fineshyt/40 selection:bg-ember selection:text-obsidian bg-winedusk/50 border-winedusk h-9 w-full min-w-0 rounded-md border-2 px-3 py-1 text-base text-fineshyt transition-all duration-300 outline-none file:inline-flex file:h-7 file:border-0 file:bg-transparent file:text-sm file:font-medium disabled:pointer-events-none disabled:cursor-not-allowed disabled:opacity-50 md:text-sm\",\n            \"focus-visible:border-ember focus-visible:ring-ember focus-visible:ring-2 focus-visible:bg-winedusk/70\",\n            error ? \"border-ember ring-ember/40 ring-2\" : \"aria-invalid:ring-ember/40 aria-invalid:border-ember\",\n            leftIcon && \"pl-10\",\n            rightIcon && \"pr-10\",\n            className\n          )}\n          {...props}\n        />\n        {rightIcon && (\n          <div className=\"absolute right-3 top-1/2 -translate-y-1/2 text-fineshyt/50\">\n            {rightIcon}\n          </div>\n        )}\n        {error && errorMessage && (\n          <p className=\"mt-1 text-xs text-ember\">{errorMessage}</p>\n        )}\n      </div>\n    )\n  }\n)\nInput.displayName = \"Input\"\n\nexport { Input }\n",
+      "type": "registry:ui"
+    }
+  ]
+}
